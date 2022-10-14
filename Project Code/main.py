@@ -37,7 +37,7 @@ board = pyfirmata.Arduino('/dev/ttyACM0')
 it = pyfirmata.util.Iterator(board)
 
 def main():
-  key = "DIC0NIUCJ57C6LPM"
+  key = "DIC0NIUCJ57*****"
   #board = pyfirmata.Arduino('/dev/ttyACM0',baudrate=57600)
   #arpin = board.analog[0]
   level_sensor_pin = board.analog[0]
